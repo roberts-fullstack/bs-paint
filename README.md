@@ -50,13 +50,6 @@ Here are some tools you can use:
 * We can use `.add` and `.remove` and `.toggle`, but the cleanest solution will involve `.replace`. Think about what the old class is on the element you wish to change, and what class you'd like to `.replace` it with. Check the docs in the above section for how to use it if you're unsure!
 
 
-### Good Luck!
-
-And may the BS be with you.
-
-
-### Some Not-Quite-Stretch-Goal Next Steps
-
 ##### Adding The Ability To Paint With More Than Clicks
 
 It is highly advised that you get the above done first before you get clicking-and-dragging implemented!
@@ -71,9 +64,9 @@ But assuming you've got that done, here we go!
 * But there is a small potential bug. If you click and hold for a moemnt, THEN drag, you may get what's caelld a "race conditon", where both the `click` and `mouseenter` event handlers run and try to edit the state of the app at the same time. We can avoid this through setting the is-the-mouse}own variable when the click-handling function runs. Surprisingly, we actually need to set it to `false` here; that's because by the time the function is running, the mouse will be down again.
 
 
-##### Changing Canvas Size
+### Good Luck!
 
-We have a 10x10 canvas right now, but you can add more if you'd like using the method outlined in the code comments!
+And may the BS be with you.
 
 
 ### Actual Stretch Goals
@@ -89,3 +82,10 @@ There are a lot of different directions you could take this project to stretch y
   * A tool that colors a square and its neighbors.
   * A tool that combines colors. For example, if the color is red and you paint it yellow with this tool, you get orange.
   * A tool that allows you to select multiple squares for painting on all of them at once.
+
+
+##### Changing Canvas Size
+
+We have a 10x10 canvas right now, but you can add more if you'd like using the method outlined in the code comments!
+
+
