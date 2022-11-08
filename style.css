@@ -80,3 +80,114 @@
 .color-5 {
 
 }
+.app {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brush-selection {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paint {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.palette {
+  display: flex;
+  margin-left: -30px;
+  flex-direction: row;
+}
+
+.brush {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.current-brush, .palette-color {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.canvas {
+  display: grid;
+  grid-template-rows: repeat(20, 2fr);
+  grid-template-columns: repeat(20, 2fr);
+  height: 600px;
+  width: 600px;
+  border: 5px solid black;
+}
+
+.square {
+  transition: 0.5s;
+}
+
+.color-1 {
+  background-color: cadetblue;
+}
+
+.color-2 {
+  background-color: green;
+
+}
+
+.color-3 {
+  background-color: blue;
+
+}
+
+.color-4 {
+  background-color: goldenrod;
+
+}
+
+.color-5 {
+  background-color: white;
+
+}
+
+.color-6 {
+  background-color: #8e0808;
+
+}
+
+.color-7 {
+  background-color: rgb(66, 77, 90);
+
+}
+
+.color-8 {
+  background-color: rgb(135, 66, 84);
+
+}
+
+.color-9 {
+  background-color: rgb(10, 243, 96);
+
+}
+
+.color-10 {
+  background-color: rgb(43, 54, 59);
+
+}
